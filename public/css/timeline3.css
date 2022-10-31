@@ -1,0 +1,27 @@
+@media(min-width: 481px) {
+    .timeline {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .timeline-btn-box {
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+    }
+    .timeline-content-box {
+        width: 100%;
+    }
+    .btn-border {
+        border: none;
+        margin: 0 2rem;
+        cursor: pointer;
+    }
+    #btn-yt {
+        height: 50px;
+        width: 50px;
+        background: url('/images/youtube.svg');
+    }
+}
